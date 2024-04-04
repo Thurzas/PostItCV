@@ -15,7 +15,7 @@ jQuery.fn.randomize = function() {
   for(var i =0;i<classes.length;i++)
   {
     if(classes[i].localeCompare("note")==0)
-      classes[i]=c;    
+      classes[i]=c;
 
     s+=classes[i]+" ";
   }
@@ -23,7 +23,7 @@ jQuery.fn.randomize = function() {
 /*  $(this).css(
     {
       'background-color': '#'+c,
-      
+
     });*/
   return $(this);
 };
@@ -37,6 +37,13 @@ $(function() {
   });
   $(".photo").rotate(Math.random()*2*rotate-rotate);
   $(".note").each( function()
+  {
+    let r = Math.random()*2*rotate-rotate;
+    $(this).draggable();
+    $(this).rotate(r);
+    $(this).randomize();
+  });
+  $(".photo").each( function()
   {
     let r = Math.random()*2*rotate-rotate;
     $(this).draggable();
