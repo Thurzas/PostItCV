@@ -57,7 +57,7 @@ h2
     right: 2em;
     bottom: -2em;
     left: 0;
-    border: 1em solid #f8de59;
+    border: 3em solid #f8de59;
     z-index: -1;
 }
 .note:after
@@ -93,7 +93,7 @@ h2
     right: 2em;
     bottom: -2em;
     left: 0;
-    border: 1em solid #ff48c2;
+    border: 2em solid #ff48c2;
     z-index: -1;
 }
 .PurpleNote:after
@@ -129,7 +129,7 @@ h2
     right: 2em;
     bottom: -2em;
     left: 0;
-    border: 1em solid #ffb3d9;
+    border: 2em solid #ffb3d9;
     z-index: -1;
 }
 .PinkNote:after
@@ -164,7 +164,7 @@ h2
     right: 2em;
     bottom: -2em;
     left: 0;
-    border: 1em solid #48ff60;
+    border: 2em solid #48ff60;
     z-index: -1;
 }
 .GNote:after
